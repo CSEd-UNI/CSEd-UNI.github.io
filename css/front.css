@@ -31,10 +31,6 @@ h3{background:url("../images/box2.jpg") no-repeat; font-size:24px; padding:0 20p
 p{padding-bottom:20px;}
 
 header{width:100%; overflow:hidden; padding-bottom:22px;}
-mark {
-  background-color: yellow;
-  color: black;
-}
 
 #menu{float:left; padding-top:30px; padding-bottom:5px;list-style-type:none;}
 #menu li{float:left; padding-right:9px; background:url("../images/menu_line.png") right 6px no-repeat; margin-right:8px;list-style-type:none;}
@@ -65,7 +61,7 @@ header .link1:hover{text-decoration:underline;}
 
 .list1{padding:38px 0 6px 0;}
 .list1 li{line-height:19px; width:100%; overflow:hidden; margin-bottom:14px; background:url("../images/line_ver1.gif") 56px 0 repeat-y;}
-.list1 .box1{background:url("../images/box1.jpg") 0 0 no-repeat; float:left; font:20px Arial,Helvetica,sans-serif; color:#f2f2f2; font-weight:bold; line-height:41px; width:41px; text-align:center; margin-right:35px;}
+.list1 .box1{background:url("../images/box1.jpg") 0 0 no-repeat; float:left; font:20px "Trebuchet MS",Arial,Helvetica,sans-serif; color:#f2f2f2; font-weight:bold; line-height:41px; width:41px; text-align:center; margin-right:35px;}
 .list2{margin:5px 0;}
 .list2 li{line-height:30px; padding-left:28px; background:url("../images/marker_2.jpg") 0 5px no-repeat;}
 .list2 li a{color:#4e4e4e;}
@@ -95,10 +91,6 @@ footer .footerlink{position:relative; margin:0 auto; width:850px; z-index:2;}
 ul{list-style:circle;}
 img{vertical-align:top;}
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
 
 /*docnav*/
 
@@ -124,24 +116,4 @@ table, th, td {
     float:right;
     width: 33%;
     text-align: right;
-}
-.collapsible {
-  background-color: #500778;
-  color: #FFB500;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
 }
